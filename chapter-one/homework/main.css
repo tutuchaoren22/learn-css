@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter, Noto Sans SC, sans-serif;
+    background-color: white;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1024px;
+    min-width: 700px;
+}
+
+header {
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    font-size: 10px;
+    border-bottom: 3px solid silver;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+header p {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+}
+
+.box-wrapper {
+    overflow: auto;
+}
+
+.box {
+    float: left;
+    width: calc(25% - 20px);
+    padding: 10px;
+    position: relative;
+}
+
+.box .tag {
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 0.5em;
+    background: #333333;
+}
+
+.box p {
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+h4 {
+    padding: 10px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.contact {
+    background: whitesmoke;
+    padding: 8px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    font-size: x-small;
+}
+
+.role {
+    color: lightgray;
+    font-size: 0.8em;
+}
+
+.desc {
+    font-size: small;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    font-size: xx-small;
+    color: white;
+    background-color: black;
+}
