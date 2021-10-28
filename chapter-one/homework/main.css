@@ -55,13 +55,12 @@ main {
     position: relative;
 }
 
-.box .tag {
+.tag {
     color: white;
     position: absolute;
-    right: 0;
+    right: 10px;
     bottom: 15px;
     padding: 5px;
-    margin-right: 10px;
     font-size: 0.5em;
     background: #333333;
 }
@@ -111,9 +110,7 @@ h4 {
 
 .contact {
     background: whitesmoke;
-    padding: 8px;
     position: relative;
-    margin: 0 auto;
     text-align: center;
     border-radius: 4px;
     font-size: x-small;
